@@ -5,10 +5,11 @@ import org.scalatest.FunSuite
 import org.scalatest.junit.JUnitRunner
 
 /**
- * Created on 9/23/14.
- * @author <a href="iamtedwon@gmail.com">Ted Won</a>
- * @version 1.0
- */
+  * Created on 9/23/14.
+  *
+  * @author <a href="iamtedwon@gmail.com">Ted Won</a>
+  * @version 1.0
+  */
 @RunWith(classOf[JUnitRunner])
 class MyFunSuite extends FunSuite {
 

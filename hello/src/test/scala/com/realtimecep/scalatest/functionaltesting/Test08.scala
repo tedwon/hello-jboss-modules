@@ -6,10 +6,11 @@ import org.scalatest.{FlatSpec, Matchers}
 import org.scalatest.selenium.WebBrowser
 
 /**
- * Created on 9/23/14.
- * @author <a href="iamtedwon@gmail.com">Ted Won</a>
- * @version 1.0
- */
+  * Created on 9/23/14.
+  *
+  * @author <a href="iamtedwon@gmail.com">Ted Won</a>
+  * @version 1.0
+  */
 class Test08 extends FlatSpec with Matchers with WebBrowser {
 
   implicit val webDriver: WebDriver = new HtmlUnitDriver
@@ -19,8 +20,8 @@ class Test08 extends FlatSpec with Matchers with WebBrowser {
   click on "twotabsearchtextbox"
   textField("twotabsearchtextbox").value = "Scala"
   submit()
-  pageTitle should be ("Amazon.com: Scala")
-  pageSource should include ("Scala Cookbook: Recipes")
+  pageTitle should be("Amazon.com: Scala")
+  pageSource should include("Scala Cookbook: Recipes")
 
 
 }
