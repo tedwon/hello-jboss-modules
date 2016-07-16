@@ -164,6 +164,11 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>org.jbugkorea</groupId>
+                <artifactId>hello</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.scala-lang</groupId>
                 <artifactId>scala-library</artifactId>
                 <version>${scala.version}</version>

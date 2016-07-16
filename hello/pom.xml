@@ -15,6 +15,7 @@
     <name>hello-jboss-modules: hello</name>
 
     <build>
+        <finalName>${project.artifactId}</finalName>
         <plugins>
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
