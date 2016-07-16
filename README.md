@@ -5,6 +5,7 @@ Hello World with JBoss Modules
 
 ```sh
 java -jar jboss-modules-1.5.2.Final.jar -mp mods app
+Hello!
 ```
 
 ### Original Reference
