@@ -10,9 +10,9 @@
         <version>0.1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>hello</artifactId>
+    <artifactId>helloB</artifactId>
 
-    <name>hello-jboss-modules: hello</name>
+    <name>hello-jboss-modules: helloB</name>
 
     <build>
         <finalName>${project.artifactId}</finalName>

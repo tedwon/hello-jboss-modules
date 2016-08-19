@@ -50,7 +50,8 @@
     </properties>
 
     <modules>
-        <module>hello</module>
+        <module>helloB</module>
+        <module>helloA</module>
         <module>app</module>
     </modules>
 
@@ -165,7 +166,12 @@
         <dependencies>
             <dependency>
                 <groupId>org.jbugkorea</groupId>
-                <artifactId>hello</artifactId>
+                <artifactId>helloA</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jbugkorea</groupId>
+                <artifactId>helloB</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

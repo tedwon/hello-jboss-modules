@@ -47,7 +47,7 @@
     <dependencies>
         <dependency>
             <groupId>org.jbugkorea</groupId>
-            <artifactId>hello</artifactId>
+            <artifactId>helloA</artifactId>
         </dependency>
         <dependency>
             <groupId>org.scala-lang</groupId>

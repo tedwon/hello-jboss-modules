@@ -7,6 +7,9 @@
     </resources>
 
     <dependencies>
-        <module name="org.jbugkorea.hello"/>
+        <module name="org.jbugkorea.helloA"/>
+        <!--<module name="org.jbugkorea.hello2"/>-->
+        <!--<module name="org.jbugkorea.hello" slot="1.5"/>-->
+        <!--<module name="org.jbugkorea.hello2" export="true"/>-->
     </dependencies>
 </module>
