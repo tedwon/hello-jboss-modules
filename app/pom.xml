@@ -50,6 +50,10 @@
             <artifactId>helloA</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.jbugkorea</groupId>
+            <artifactId>helloB</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
         </dependency>

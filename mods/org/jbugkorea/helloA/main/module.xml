@@ -3,4 +3,9 @@
     <resources>
         <resource-root path="helloA.jar"/>
     </resources>
+
+    <dependencies>
+        <!--<module name="org.jbugkorea.helloB"/>-->
+        <module name="org.jbugkorea.helloB" export="true"/>
+    </dependencies>
 </module>

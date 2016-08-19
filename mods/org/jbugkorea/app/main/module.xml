@@ -8,8 +8,6 @@
 
     <dependencies>
         <module name="org.jbugkorea.helloA"/>
-        <!--<module name="org.jbugkorea.hello2"/>-->
-        <!--<module name="org.jbugkorea.hello" slot="1.5"/>-->
-        <!--<module name="org.jbugkorea.hello2" export="true"/>-->
+        <!--<module name="org.jbugkorea.helloB"/>-->
     </dependencies>
 </module>
