@@ -8,6 +8,7 @@
 
     <dependencies>
         <module name="org.jbugkorea.helloA"/>
+        <module name="org.jbugkorea.helloA1"/>
         <!--<module name="org.jbugkorea.helloB"/>-->
     </dependencies>
 </module>

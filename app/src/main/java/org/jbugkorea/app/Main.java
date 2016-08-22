@@ -1,6 +1,7 @@
 package org.jbugkorea.app;
 
 import org.jbugkorea.hello.HelloA;
+import org.jbugkorea.hello.HelloA1;
 import org.jbugkorea.hello.HelloB;
 
 /**
@@ -11,11 +12,15 @@ public class Main {
 
         System.out.println("Main!");
 
-        new HelloB().say();
+//        new HelloB().say();
 
 
 //        new Hello().say();
         new HelloA().say();
+
+        new HelloA1().say();
+
+
 
         // wait infinitely
         synchronized (Main.class) {

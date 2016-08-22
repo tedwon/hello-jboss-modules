@@ -10,9 +10,9 @@
         <version>0.1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>app</artifactId>
+    <artifactId>helloA1</artifactId>
 
-    <name>hello-jboss-modules: app</name>
+    <name>hello-jboss-modules: helloA1</name>
 
     <build>
         <finalName>${project.artifactId}</finalName>
@@ -45,14 +45,6 @@
     </build>
 
     <dependencies>
-        <dependency>
-            <groupId>org.jbugkorea</groupId>
-            <artifactId>helloA</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.jbugkorea</groupId>
-            <artifactId>helloA1</artifactId>
-        </dependency>
         <dependency>
             <groupId>org.jbugkorea</groupId>
             <artifactId>helloB</artifactId>

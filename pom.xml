@@ -51,6 +51,7 @@
 
     <modules>
         <module>helloB</module>
+        <module>helloA1</module>
         <module>helloA</module>
         <module>app</module>
     </modules>
@@ -167,6 +168,11 @@
             <dependency>
                 <groupId>org.jbugkorea</groupId>
                 <artifactId>helloA</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jbugkorea</groupId>
+                <artifactId>helloA1</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
