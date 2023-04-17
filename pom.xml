@@ -22,7 +22,7 @@
         <output.encoding>UTF-8</output.encoding>
         <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
 
-        <version.junit>4.12</version.junit>
+        <version.junit>4.13.1</version.junit>
         <version.org.slf4j>1.7.21</version.org.slf4j>
         <version.logback>1.0.13</version.logback>
         <version.selenium>2.43.1</version.selenium>
